@@ -1,0 +1,53 @@
+{% extends "base_generic.html" %}
+<main role="main">
+  <div class="container">
+    <br><br>
+      <h1> </h1>
+        <form>
+        <div class="form-group">
+          <label for="nombre">Ingrese su nombre completo:</label>
+          <input type="text" class="form-control" name="" id="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Cantidad de entradas:</label>
+          <input type="number" class="form-control" name="" id="cantidad" required>
+        </div>
+
+        <div class="form-group">
+          <label for="Correo">Correo Electronico:</label>
+          <input type="email" class="form-control" name="email" id="email" required>
+        </div>
+        <hr>
+         <hr>
+
+         <label>Medio de pago: </label>
+         <br>
+         <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="checkbox1" name="grupo2" required>
+          <label class="form-check-label" for="radio4">
+            Efectivo (Paga en el cine)
+          </label>
+          </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="checkbox1" name="grupo2">
+          <label class="form-check-label" for="radio4">
+            Débito
+          </label>
+        </div>
+        <hr>
+
+
+        <br><br>
+
+        <button type="submit" class="btn btn-primary" onclick="valorEntrada()">Enviar</button>  
+        </form>
+
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
